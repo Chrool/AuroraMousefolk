@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mousefolk</name>
+		<author url="https://drive.google.com/file/d/0B6eHVaEIoWbBZWRid0tkMnhPMXM/view">Homebrew</author>
+		 <update version="1.0">
+		  <file name="mousefolk.index" url="http://hosting.com/files/sample.index" />
+		</update>
+	</info>
+
+	<element name="Mousefolk" type="Race" source="Homebrew" id="ID_HOMEBREW_RACE_MOUSEFOLK">
+		<description>
+			<p class="flavor">The life of the Mousefolk is one spent close to the ground. With no great empires or kingdoms to call home, the Mousefolk spend their lives carving a place for themselves in the cities of the larger races or in the untamed wilds. They form tight-knit communities where every member is expected to contribute to the success of the whole. Some Mousefolk study a trade skill to support their families, while others use their natural agility and intellect for contract services.</p>
+			<h4>FURRY AND NIMBLE</h4>
+			<p>Reaching a little over 2 feet tall, the Mousefolk often go unnoticed in their day to day activities. Their diminutive stature and quiet demeanor make the Mousefolk inoffensive to most, granting a certain detachment from the major conflicts and strife of the age. Their fast metabolisms and quick feet give the Mousefolk a slender build, usually weighing between 20-30 pounds.</p>
+			<p class="indent">Mousefolk fur color ranges from white to tan to brown or black, with various patterns passed through heredity. They take care to groom and clean their fur, as it represents their family and community. A Mousefolk’s eye color is either red or black. Mousefolk like to wear comfortable dark colored clothes that allow for discretion and a wide range of movement.</p>
+			<p class="indent">The concept of personal wealth or glory doesn’t pervade through Mousefolk culture, most actions taken are for the good of the community rather than the self. Any wealth or resources gained are utilized for the betterment of the group. Some Mousefolk, however, use their natural abilities for personal gain. These individuals tend to be outcasts or black sheep of the clans.</p>
+			<h4>HOME AND HEARTH</h4>
+			<p>The Mousefolk are a resourceful and tenacious race. Mousefolk settlements can be found in the most unlikely and inhospitable of places. They tend to build homes in the dark shadows and forgotten corners of the world, such as city slums, deep forests, scorching deserts, arctic tundras, or port cities in exotic lands. The Mousefolk aren't typically farmers, instead preferring hunting, trade, and craft to meet their needs. Mousefolk caravans are not an easy target for bandits, guarded by skilled archers within and a bristling wall of oak and steel without.</p>
+			<p class="indent">Mousefolk families extend beyond blood ties, an individual's entire community is treated as kin. Mousefolk settlers will seek out other colonies, and new warrens will arise within close proximity to each other. These communities will eventually grow and merge, the members of each becoming kin to the other.</p>
+			<h4>ARTISANS AND ADVENTURERS</h4>
+			<p>The Mousefolk have a deep love of art, literature, song, and craft, and will often spend a lifetime perfecting their trade. True masterworks are rarely seen by the outside world, instead they are preserved and passed through the generations. To be a keeper of lore and heritage is among the highest honors and greatest responsibilities in Mousefolk culture.</p>
+			<p class="indent">The Mousefolk who do not end up learning a trade will often put their skills to use pursuing esoteric knowledge, training as defenders, spiritual leaders, rangers, covert agents, or they might even travel the world as an adventurer-for-hire.</p>
+			<h4>MOUSEFOLK NAMES</h4>
+			<p>When a Mousefolk is old enough to read, they are taken by an elder to the clan's archives to study the lore and histories of their people. After several years, the individual is allowed to pick their own name, either adopting the name of a past hero, or inventing a new name for themselves.</p>
+			<ul class="unstyled">
+				<li><strong>Male Names:</strong> Aengus, Ashwin, Aynselle, Boris, Byrnstan, Celanawe, Colin, Demitri, Elric, Esegar, Finn, Gregory, Joseph, Luke, Martin, Matthias, Mattimeo, Odric, Seyth, Thom, Waldwin</li>
+				<li><strong>Female Names:</strong> Baeylie, Caley, Clove, Daewn, Dalla, Eda, Elis, Gale, Ingrid, Kearra, Mariel, Millicent, Moira, Nola, Rona, Rosalee, Sayble, Serra, Sylvia, Veira</li>
+				<li><strong>Historical Names:</strong> Abershaw, Bluebell, Dalgill, Faolan, Garrow, Gamilon, Grimwold, Hannidy, Larkin, Sloan, Taryn, Tenny, Tinble, Toller, Vidar, Walmond</li>
+			</ul>
+			<h4>MOUSEFOLK TRAITS</h4>
+			<p>Your Mousefolk character has a number of traits in common with all other Mousefolk.</p>			
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> A Mousefolk reaches adulthood at the age of 5 and lives to be about 40 years old.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Most Mousefolk are neutral, and tend towards good. They try to keep the conflicts of the other races at arm's length, but display remarkable ferocity when their friends, families, or communities are threatened. A reverence for nature and life is close to the heart of Mousefolk, and they are loath to take a life if it can be avoided. They prefer to live quiet and unassuming lives, giving honest work for honest pay.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Mousefolk grow between 2 and 2 1/2 feet tall and weigh about 25 pounds. Your size is Small.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
+			<p class="indent"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p>
+			<p class="indent"><strong><em>Mousefolk Weapon Training.</em></strong> You have proficiency with the rapier, shortsword, shortbow, and handaxe.</p>
+			<p class="indent"><strong><em>Nimble Dodge.</em></strong> When attacked by an Attack of Opportunity, you may use your reaction to impose disadvantage on that attack.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Squeak Speak. Mousefolk place great value on the written accounts of their legends and histories, and encourage everyone to keep journals and records of their deeds. Almost all Mousefolk speak Common to converse with the people on whose lands they dwell or through which they are traveling.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> The two main kinds of Mousefolk, Softpaw and Meadowgard, are more like closely related families than true subraces. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Aengus, Ashwin, Aynselle, Boris, Byrnstan, Celanawe, Colin, Demitri, Elric, Esegar, Finn, Gregory, Joseph, Luke, Martin, Matthias, Mattimeo, Odric, Seyth, Thom, Waldwin</set>
+			<set name="names" type="female">Baeylie, Caley, Clove, Daewn, Dalla, Eda, Elis, Gale, Ingrid, Kearra, Mariel, Millicent, Moira, Nola, Rona, Rosalee, Sayble, Serra, Sylvia, Veira</set>
+			<set name="names" type="historic">Abershaw, Bluebell, Dalgill, Faolan, Garrow, Gamilon, Grimwold, Hannidy, Larkin, Sloan, Taryn, Tenny, Tinble, Toller, Vidar, Walmond</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_SQUEAKSPEAK" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MOUSEFOLK_WEAPON_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIMBLE_DODGE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MOUSEFOLK_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Keen Senses" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_KEEN_SENSES">
+		<description>
+			<p>You have proficiency in the Perception skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Perception skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	<element name="Mousefolk Weapon Training" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_MOUSEFOLK_WEAPON_TRAINING">
+		<description>
+			<p>You have proficiency with the rapier, shortsword, shortbow, and handaxe.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with the rapier, shortsword, shortbow, and handaxe.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+		</rules>
+	</element>
+	<element name="Nimble Dodge" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_NIMBLE_DODGE">
+		<description>
+			<p>When attacked by an Attack of Opportunity, you may use your reaction to impose disadvantage on that attack.</p>
+		</description>
+		<sheet>
+			<description>When attacked by an Attack of Opportunity, you may use your reaction to impose disadvantage on that attack.</description>
+		</sheet>
+	</element>
+	<element name="Mousefolk Subrace" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_MOUSEFOLK_SUBRACE">
+		<description>
+			<p>The two main kinds of Mousefolk, Softpaw and Meadowgard, are more like closely related families than true subraces. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Sub Race" name="Mousefolk Subrace" supports="Mousefolk" />
+		</rules>
+	</element>
+
+	<element name="Softpaw Mousefolk" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_SOFTPAW_MOUSEFOLK">
+		<supports>Mousefolk</supports>
+		<description>
+			<p>As a Softpaw Mousefolk, you avoid the dangers of the untamed wilds for the security of civilization. Your bookish nature gives you an edge in the arcane studies and a knack for trade skills and craft. The mark of the Softpaw is a seal of the utmost quality. A Softpaw's natural dexterity and keen intellect make them desirable contract thieves and infiltrators.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Artistry.</em></strong> You gain proficiency with one type of artisan's tools or one musical instrument.</p>
+			<p class="indent"><strong><em>Squirm.</em></strong> You can move through tiny sized spaces as if you were tiny size.</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="height" modifier="2d4">2'6"</set>
+			<set name="weight" modifier="2d6">25 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ARTISTRY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SQUIRM" />
+		</rules>
+	</element>
+	<element name="Artistry" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ARTISTRY">
+		<description>
+			<p>You gain proficiency with one type of artisan's tools or one musical instrument.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency with one type of artisan's tools or one musical instrument.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Artistry" supports="Artisan tools" />
+		</rules>
+		<rules>
+			<select type="Racial Trait" name="Bonus Proficiency (Softpaw)" supports="ID_HOMEBREW_MOUSEFOLK_SOFTPAW_PROFICIENCY|ID_HOMEBREW_MOUSEFOLK_SOFTPAW_LANGUAGE" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiency (Proficiency)" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_MOUSEFOLK_SOFTPAW_PROFICIENCY">
+		<description>Subrace Proficiency choices</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Bonus Proficiency (Softpaw)" supports="Artisan tools" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiency (Language)" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_MOUSEFOLK_SOFTPAW_LANGUAGE">
+		<description>Subrace Language choices</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Language" name="Bonus Language (Softpaw)" supports="Standard||Exotic" />
+		</rules>
+	</element>
+	<element name="Squirm" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SQUIRM">
+    <description>
+      <p>You can move through tiny sized spaces as if you were tiny size.</p>
+    </description>
+    <sheet>
+      <description>You can move through tiny sized spaces as if you were tiny size.</description>
+    </sheet>
+  </element>
+	<element name="Meadowgard Mousefolk" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_MEADOWGARD_MOUSEFOLK">
+		<supports>Mousefolk</supports>
+		<description>
+			<p>As a Meadowgard Mousefolk, you make your living in the wilds. You have keen senses, deep intuition, and a connection with nature that few other races can boast. The Meadowgard stand staunchly at the edge of civilization, knowing that their eyes are the first alarm and their body and blade are the last bulwark of countless others. They have an unwavering sense of duty and a lifetime of experience which keeps them sharp against the dangers of the world. With an Eider's blessing some Meadowgard leave the service of their clans to travel the world and record their journeys.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Brave.</em></strong> You have advantage on saving throws against being frightened.</p>
+			<p class="indent"><strong><em>Speak With Small Beasts.</em></strong> Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="height" modifier="2d4">2'6''</set>
+			<set name="weight" modifier="2d6">25 lb.</set>
+		</setters>
+		<rules>
+			<stat name="wisdon" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BRAVE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS" />
+		</rules>
+	</element>
+	<element name="Brave" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_BRAVE">
+		<description>
+			<p>You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being frightened.</description>
+		</sheet>
+	</element>
+	<element name="Speak With Small Beasts" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS">
+		<description>
+			<p>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</p>
+		</description>
+		<sheet>
+			<description>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</description>
+		</sheet>
+	</element>
+</elements>
