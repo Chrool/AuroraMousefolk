@@ -4,7 +4,7 @@
 		<name>Mousefolk</name>
 		<author url="https://drive.google.com/file/d/0B6eHVaEIoWbBZWRid0tkMnhPMXM/view">Homebrew</author>
 		 <update version="1.0">
-		  <file name="mousefolk.index" url="http://hosting.com/files/sample.index" />
+		  <file name="mousefolk.index" url="https://raw.githubusercontent.com/ScatmanScott/AuroraMousefolk/master/mousefolk.index" />
 		</update>
 	</info>
 
