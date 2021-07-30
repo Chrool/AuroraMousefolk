@@ -5,10 +5,10 @@
 		<description>The Mousefolk homebrew race for 5e.</description>
 		<author url="https://drive.google.com/file/d/0B6eHVaEIoWbBZWRid0tkMnhPMXM/view">Homebrew</author>
 		<update version="0.1">
-			<file name="mousefolk.index" url="https://raw.githubusercontent.com/ScatmanScott/AuroraMousefolk/master/mousefolk.index" />
+			<file name="mousefolk.index" url="https://raw.githubusercontent.com/Chrool/AuroraMousefolk/master/mousefolk.index" />
 		</update>
 	</info>
 	<files>	
-		<file name="race-mousefolk.xml" url="https://raw.githubusercontent.com/ScatmanScott/AuroraMousefolk/master/race-mousefolk.xml" />
+		<file name="race-mousefolk.xml" url="https://raw.githubusercontent.com/Chrool/AuroraMousefolk/master/race-mousefolk.xml" />
 	</files>
 </index>
