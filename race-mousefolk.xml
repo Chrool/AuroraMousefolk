@@ -194,4 +194,16 @@
 	        <description>You can move through tiny sized spaces as if you were tiny size.</description>
 	       </sheet>
 	</element>
+	
+	<element name="Sqeak Speak" type="Language" source="Homebrew" id="ID_LANGUAGE_SQUEAKSPEAK">
+		<supports>Squeak Speak Language</supports>
+		<description>
+			<p>The language of the Mousefolk</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Mousefolk</set>
+			<set name="script">Mousefolk</set>
+		</setters>
+	</element>
 </elements>
