@@ -31,12 +31,13 @@
 			<h4>MOUSEFOLK TRAITS</h4>
 			<p>Your Mousefolk character has a number of traits in common with all other Mousefolk.</p>			
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2.</p>
+			<p class="indent"><strong><em>Ability Score Decrease.</em></strong> Your Strength score decreases by 1. Your Constitution score decreases by 1.</p>
 			<p class="indent"><strong><em>Age.</em></strong> A Mousefolk reaches adulthood at the age of 5 and lives to be about 40 years old.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Most Mousefolk are neutral, and tend towards good. They try to keep the conflicts of the other races at arm's length, but display remarkable ferocity when their friends, families, or communities are threatened. A reverence for nature and life is close to the heart of Mousefolk, and they are loath to take a life if it can be avoided. They prefer to live quiet and unassuming lives, giving honest work for honest pay.</p>
 			<p class="indent"><strong><em>Size.</em></strong> Mousefolk grow between 2 and 2 1/2 feet tall and weigh about 25 pounds. Your size is Small.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
-			<p class="indent"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p>
-			<p class="indent"><strong><em>Mousefolk Weapon Training.</em></strong> You have proficiency with the rapier, shortsword, shortbow, and handaxe.</p>
+			<p class="indent"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p>.
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>			<p class="indent"><strong><em>Mousefolk Weapon Training.</em></strong> You have proficiency with the rapier, shortsword, shortbow, and handaxe.</p>
 			<p class="indent"><strong><em>Nimble Dodge.</em></strong> When attacked by an Attack of Opportunity, you may use your reaction to impose disadvantage on that attack.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Squeak Speak. Mousefolk place great value on the written accounts of their legends and histories, and encourage everyone to keep journals and records of their deeds. Almost all Mousefolk speak Common to converse with the people on whose lands they dwell or through which they are traveling.</p>
 			<p class="indent"><strong><em>Subrace.</em></strong> The two main kinds of Mousefolk, Softpaw and Meadowgard, are more like closely related families than true subraces. Choose one of these subraces.</p>
@@ -50,6 +51,8 @@
 		</setters>
 		<rules>
 			<stat name="dexterity" value="2" />
+			<stat name="strength" value="-1" />
+			<stat name="constitution" value="-1" />
 			<stat name="innate speed" value="25" bonus="base" />
 			<grant type="Size" id="ID_SIZE_SMALL" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
@@ -58,6 +61,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MOUSEFOLK_WEAPON_TRAINING" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIMBLE_DODGE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MOUSEFOLK_SUBRACE" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
 		</rules>
 	</element>
 	<element name="Keen Senses" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_KEEN_SENSES">
@@ -109,7 +113,7 @@
 			<p>As a Softpaw Mousefolk, you avoid the dangers of the untamed wilds for the security of civilization. Your bookish nature gives you an edge in the arcane studies and a knack for trade skills and craft. The mark of the Softpaw is a seal of the utmost quality. A Softpaw's natural dexterity and keen intellect make them desirable contract thieves and infiltrators.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1.</p>
 			<p class="indent"><strong><em>Artistry.</em></strong> You gain proficiency with one type of artisan's tools or one musical instrument.</p>
-			<p class="indent"><strong><em>Squirm.</em></strong> You can move through tiny sized spaces as if you were tiny size.</p>
+			<p class="indent"><strong><em>Speak With Small Beasts.</em></strong> Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</p>
 		</description>
 		<sheet display="false"/>
 		<setters>
@@ -119,7 +123,7 @@
 		<rules>
 			<stat name="intelligence" value="1" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ARTISTRY" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SQUIRM" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS" />
 		</rules>
 	</element>
 	<element name="Artistry" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ARTISTRY">
@@ -147,21 +151,21 @@
 			<select type="Language" name="Bonus Language (Softpaw)" supports="Standard||Exotic" />
 		</rules>
 	</element>
-	<element name="Squirm" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SQUIRM">
-    <description>
-      <p>You can move through tiny sized spaces as if you were tiny size.</p>
-    </description>
-    <sheet>
-      <description>You can move through tiny sized spaces as if you were tiny size.</description>
-    </sheet>
-  </element>
+	<element name="Speak With Small Beasts" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS">
+		<description>
+			<p>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</p>
+		</description>
+		<sheet>
+			<description>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</description>
+		</sheet>
+	</element>
 	<element name="Meadowgard Mousefolk" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_MEADOWGARD_MOUSEFOLK">
 		<supports>Mousefolk</supports>
 		<description>
 			<p>As a Meadowgard Mousefolk, you make your living in the wilds. You have keen senses, deep intuition, and a connection with nature that few other races can boast. The Meadowgard stand staunchly at the edge of civilization, knowing that their eyes are the first alarm and their body and blade are the last bulwark of countless others. They have an unwavering sense of duty and a lifetime of experience which keeps them sharp against the dangers of the world. With an Eider's blessing some Meadowgard leave the service of their clans to travel the world and record their journeys.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
 			<p class="indent"><strong><em>Brave.</em></strong> You have advantage on saving throws against being frightened.</p>
-			<p class="indent"><strong><em>Speak With Small Beasts.</em></strong> Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</p>
+			<p class="indent"><strong><em>Squirm.</em></strong> You can move through tiny sized spaces as if you were tiny size.</p>
 		</description>
 		<sheet display="false"/>
 		<setters>
@@ -171,7 +175,7 @@
 		<rules>
 			<stat name="wisdon" value="1" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BRAVE" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SQUIRM" />
 		</rules>
 	</element>
 	<element name="Brave" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_BRAVE">
@@ -182,12 +186,12 @@
 			<description>You have advantage on saving throws against being frightened.</description>
 		</sheet>
 	</element>
-	<element name="Speak With Small Beasts" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS">
-		<description>
-			<p>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</p>
-		</description>
-		<sheet>
-			<description>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</description>
-		</sheet>
+	<element name="Squirm" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SQUIRM">
+	       <description>
+	        <p>You can move through tiny sized spaces as if you were tiny size.</p>
+	       </description>
+	       <sheet>
+	        <description>You can move through tiny sized spaces as if you were tiny size.</description>
+	       </sheet>
 	</element>
 </elements>
